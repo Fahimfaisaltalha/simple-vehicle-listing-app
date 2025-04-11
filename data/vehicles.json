@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "name": "R15",
+        "type": "Bike",
+        "price": "500000",
+        "image": "https:\/\/imgd.aeplcdn.com\/664x374\/n\/cw\/ec\/103795\/yzf-r15-right-front-three-quarter-7.jpeg?isig=0&q=80"
+    },
+    {
+        "name": "BMW",
+        "type": "Car",
+        "price": "10000000",
+        "image": "https:\/\/www.bmw.bs\/content\/dam\/bmw\/common\/all-models\/m-series\/series-overview\/bmw-m-series-seo-overview-ms-04.jpg"
+    },
+    {
+        "name": " Boeing 777",
+        "type": "Plane",
+        "price": "7000000000",
+        "image": "https:\/\/www.boeing.com\/content\/dam\/boeing\/boeingdotcom\/commercial\/777\/design-highlights\/assets\/images\/bg\/home.jpg"
+    },
+    {
+        "name": "Lamborghini",
+        "type": "Car",
+        "price": "999999999",
+        "image": "https:\/\/www.supercars.net\/blog\/wp-content\/uploads\/2024\/02\/2024-Lamborghini-Revuelto-013-2160-scaled.jpg"
+    }
+]
