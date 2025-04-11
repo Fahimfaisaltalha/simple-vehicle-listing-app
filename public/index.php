@@ -17,6 +17,15 @@ include './views/header.php';
     <h1>Vehicle Listing</h1>
     <a href="./../public/views/add.php" class="btn btn-success mb-4">Add Vehicle</a>
     <div class="row">
+
+    <?php if(empty($vehicle)):?>
+    <div class="col-12">
+        <div class="alert alert-warning text-center" role="alert">
+            No vehicle found.
+        </div>
+    </div>
+
+    <?php else : ?>
         
          <?php foreach($vehicles as $id=>$vehicle): ?>
             <div class="col-md-4">
@@ -32,6 +41,7 @@ include './views/header.php';
                 </div>
             </div>
             <?php endforeach; ?>
+            <?php endif; ?>
         
     </div>
 </div>
